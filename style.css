@@ -1,0 +1,84 @@
+html, body {
+    display: flex;
+    height: 100%;
+    width: 100%;
+    margin: 0;
+}
+
+/*CPU game styles starts*/
+.cpu-game {
+    background-color: blanchedalmond;
+    padding: 8px;
+    display: flex;
+    justify-content: space-between;
+    align-items: stretch;
+    flex: 1 1 auto;
+}
+
+.ui-left {
+    display: flex;
+    flex-direction: column;
+    gap: 12px;
+    justify-content: space-between;
+    flex: 3 1 auto;
+}
+
+.ui-left .remaining {
+    display: flex;
+    flex-direction: column;
+}
+
+.ui-left .remaining img {
+    width: 45px;
+    height: auto;
+}
+
+.ui-mid {
+    display: flex;
+    flex-direction: column;
+    gap: 12px;
+    justify-content: space-between;
+    flex: 3 0 auto;
+}
+
+.ui-mid .opponent-hand {
+    display: flex;
+    justify-content: center;
+    flex: 1 0 auto;
+}
+
+.ui-mid .opponent-hand img {
+    margin-left: -45px;
+    width: 62px;
+    height: 92px;
+    border: 2px solid white;
+    flex: 0 0 auto;
+}
+
+.ui-mid .board {
+    display: flex;
+    flex: 5 0 auto;
+    align-items: center;
+} 
+
+.ui-mid .board .table {
+    background-color: darkgreen;
+    height: 400px;
+    width: 400px;
+    display: flex;
+    flex: 0 0 auto;
+} 
+
+.ui-mid .player-hand {
+    flex: 10 0 auto;
+}
+
+.ui-right {
+    display: flex;
+    flex-direction: column;
+    gap: 12px;
+    justify-content: center;
+    flex: 2 1 auto;
+}
+
+/*CPU game styles ends*/
